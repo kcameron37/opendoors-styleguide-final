@@ -3,7 +3,7 @@ h1{
 }
 
 nav {
-  background-color: #333;
+  background-color: #FFB374;
   height: 50px;
 }
 
@@ -27,5 +27,5 @@ a {
 }
 
 a:hover {
-  background-color: #111;
+  background-color: #33718A;
 }
