@@ -5,6 +5,23 @@ h1{
 nav {
   background-color: #FFB374;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
 }
 
 ul {
@@ -28,4 +45,5 @@ a {
 
 a:hover {
   background-color: #33718A;
-}
+  border-radius: 10px;
+  }
