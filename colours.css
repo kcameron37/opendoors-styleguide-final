@@ -18,6 +18,47 @@
     font-size: 30px;
     font-weight: lighter;
   }
+  
+  h3{
+    font-family: 'Calistoga', cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+
+  }
+  h4{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #33718A;
+    font-size: 30px;
+      }
+
+h4 {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #33718A;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #33718A;
+    font-size: 20px;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #33718A;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+  p1{
+    font-family: 'Roboto', sans-serif;
+    color: #33718A;
+    font-size: 16px;
+    
+  }
 
 
 
@@ -47,7 +88,7 @@
     padding: 0;
     font-size: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    font-family: Archivo;
+    font-size: 70px;
       }
   
   .nav ul {
@@ -95,7 +136,8 @@
       display: flex;
       margin: 10%;
       margin-top: 15%;
-        }
+ 
+     }
     
     .colours__header{
         margin-top: 250px;
@@ -104,6 +146,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
         
     }
 
@@ -124,9 +167,17 @@
       padding: 1%;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
+            
     }
 
+    .text-block{
+     width: 33.33%;
+    height: 300px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
     h1{
         font-family: 'Calistoga', cursive;
         color: #33718A;
