@@ -3,6 +3,7 @@
 
 *{
   font-family: 'Archivo Narrow', sans-serif;
+
 }
 
 /**-----End of Global-------**/
@@ -34,12 +35,12 @@ h1{
   font-family: Archivo;
     }
 
-.nav ul li{
+.nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   margin: 0;
-
+  padding: 0;
 }
 
 .nav li {

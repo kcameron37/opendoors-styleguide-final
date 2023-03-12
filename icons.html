@@ -20,20 +20,55 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet"> 
+
 </head>
 
 <body>
-  <nav>
+  <div class="navbar">
   <ul>
-    <li><a href="#"><img src="#" alt="Open Doors Logo"></a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="logo.html">Logo</a></li>
+    <li><a href="index.html">Logo</a></li>
     <li><a href="colours.html">Colours</a></li>
     <li><a href="icons.html"> Icons & Imagery </a></li>
   </ul>
-</nav> 
+</div> 
+  <div class ="logo"> 
+  <h1> Logo Here </h1>
+  </div>
 
-  <h1> Icons </h1>
+
+  <div class="icons__container"> 
+    <h1> Imagery and Icons </h1>
+    </div>
+
+    
+  </div>
+ </div>
+
+
+
 </body>
+
+
+<footer>
+  <p> Open Dorrs Style Guide -  All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+    window.onscroll = function() {
+    var navbar = document.querySelector('.navbar');
+    if (document.documentElement.scrollTop > 100) {
+      navbar.style.position = 'fixed';
+      navbar.style.top = '0';
+    } else {
+      navbar.style.position = 'absolute';
+      navbar.style.top = '200px';
+    }
+  }
+</script>
 
 </html>

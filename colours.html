@@ -17,23 +17,130 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="colours.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet"> 
+
 </head>
 
 <body>
-  <nav>
+  <div class="navbar">
   <ul>
-    <li><a href="#"><img src="#" alt="Open Doors Logo"></a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="logo.html">Logo</a></li>
+    <li><a href="index.html">Logo</a></li>
     <li><a href="colours.html">Colours</a></li>
     <li><a href="icons.html"> Icons & Imagery </a></li>
   </ul>
-</nav> 
+</div> 
+  <div class ="top__logo"> 
+  <h1> Logo Here </h1>
+  </div>
 
-  <h1> Colours </h1>
+  <div class="main__container"> 
+    <div class="colours__header">
+      <h1>Colours and Use</h1>
+      <p> Overall, Open Doors was looking for a warm and inviting clours scheme. One that allowed individuals to feel calm and stability when they used the app</p>
+    </div>
+
+   <div class="container">
+    <div class="color-block" style="background-color: #FF9D60;">#FF9D60
+    <p> This color is a bright, vibrant orange. It has a warm and inviting feel to it and this will be an accent colour for the app</p>
+    </div>
+    <div class="color-block" style="background-color: #FFB374;">#FFB374
+    <p>This color is a soft, peach with a warm undertone. It will be used to create a calming and relaxing mood. This will be the primary colour for the app</p></div>
+    <div class="color-block" style="background-color: #33718A;">#33718A
+    <p>This color is a deep, rich blue-green. It has a cool and calming feel to it, and could be used to create a sense of stability and reliability. This will be the secondary colour for the app. </p></div>
+    <div class="color-block" style="background-color: #94C3CD;">#94C3CD
+    <p>This color is a light, blue-green with a cool undertone. It is Open Door's secondary colour and it will be used to create a sense of tranquility and calmness. This will be an accent colour for the app </p></div>
+    <div class="color-block" style="background-color: #EFE5D5;">#EAD9C5
+    <p>This color is a soft and warm beige. It has a cozy and comforting feel to it, and could be used to create a sense of warmth and familiarity. It will be the background colour for the app</p></div>
+    </div>
+ </div>
+
+ <div class="text__header">
+  <h1>Typography and Use </h1>
+  <p> Overall, Open Doors was for easy to read text but also a display text that stood out from the rest</p>
+</div>
+
+<div class="text__container">
+  <div class="h1__style>"> 
+    <div class="container">
+      <div class="color-block" style="background-color: #FF9D60;">
+        <h1>Header 1</h1>
+        <p>text about font</p>
+      </div>
+      <div class="color-block" style="background-color:  #FFB374;">
+        <h2>Header 2</h2>
+        <p>text about font</p>
+      </div>
+      <div class="color-block" style="background-color:#33718A;">
+        <h3>Header 3 </h3>
+        <p>text about font</p>
+      </div>
+      <div class="color-block" style="background-color:  #94C3CD;">
+        <h4>Header 4</h4>
+        <p>text about font</p>
+      </div>
+      <div class="color-block" style="background-color: #EFE5D5;">
+        <h5>Header 5</h5>
+        <p>text about font</p>
+      </div>
+      
+   </div>
+ 
+   <div class="text__container">
+    <div class="h1__style>"> 
+      <div class="container">
+        <div class="color-block" style="background-color: #FF9D60;">
+          <h6> Header 6</h6>
+          <p>text about font</p>
+        </div>
+        <div class="color-block" style="background-color:  #FFB374;">
+          <p>Paragraph</p>
+          <p>text about font</p>
+        </div>
+        <div class="color-block" style="background-color:#33718A;">
+          <h5> Link </h5>
+          <p>text about font</p>
+        </div>
+        <div class="color-block" style="background-color:  #94C3CD;">
+          <h4>Hover Link</h4>
+          <p>text about font</p>
+        </div>
+        <div class="color-block" style="background-color: #EFE5D5;">
+          <h5>Header 5</h5>
+          <p>text about font</p>
+        </div>
+        
+     </div>
+
+
+ </div>
+
 </body>
+
+
+<footer>
+  <p> Open Doors Style Guide -  All rights reserved.</p>
+  <p> Kaitlyn, Eric and Johnathon </p>
+  <p> Digital Design and Development - Set H </p>
+  </div>
+</footer>
+
+<script>
+    window.onscroll = function() {
+    var navbar = document.querySelector('.navbar');
+    if (document.documentElement.scrollTop > 100) {
+      navbar.style.position = 'fixed';
+      navbar.style.top = '0';
+    } else {
+      navbar.style.position = 'absolute';
+      navbar.style.top = '200px';
+    }
+  }
+</script>
 
 </html>
