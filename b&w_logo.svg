@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.17 227.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0a0a0a;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Logos">
+    <g id="Logo_1" data-name="Logo 1">
+      <rect class="cls-2" x="1" y="1.07" width="115.64" height="192.09"/>
+      <circle class="cls-1" cx="83.59" cy="59.77" r="17.31"/>
+      <path class="cls-1" d="M37.3,55.21s12.56,57.58,106.37,25.65c0,0-55.15,31.76-57.99,56.13-3.01,25.82,26.73,75.9,26.73,75.9,0,0-36.75-38.35-58.8-44.63-22.05-6.28-16.3-113.05-16.3-113.05Z"/>
+      <polygon class="cls-1" points="1 1.07 62.03 4.91 62.03 226.14 1 193.15 1 1.07"/>
+    </g>
+  </g>
+</svg>

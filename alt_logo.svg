@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.87 134.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #94c3cd;
+      }
+
+      .cls-3 {
+        fill: #ffb374;
+      }
+
+      .cls-4 {
+        fill: #33718a;
+      }
+    </style>
+  </defs>
+  <g id="Text">
+    <g id="Text_2" data-name="Text 2">
+      <g id="Logo_1" data-name="Logo 1">
+        <path class="cls-1" d="M69.21,114.95H36.52v19.74s35.49-.32,32.68-19.74Z"/>
+        <rect class="cls-2" width="69.21" height="114.95"/>
+        <circle class="cls-4" cx="46.88" cy="36.5" r="10.36"/>
+        <path class="cls-4" d="M25.62,32.41s10.9,42.59,58.24,1.11c0,0-24.29,37.63-25.58,47.76-1.96,15.43,12.27,45.49,12.27,45.49,0,0-21.99-22.95-35.19-26.71S25.62,32.41,25.62,32.41Z"/>
+        <polygon class="cls-3" points="0 0 36.52 2.3 36.52 134.7 0 114.95 0 0"/>
+      </g>
+    </g>
+  </g>
+</svg>
