@@ -145,8 +145,17 @@ a:hover {
       justify-content: center;
       align-items: center;
       
-      
   }
+
+  .secondary__header{
+    margin-top: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
 
   .text__header{
       margin-top: 50px;
