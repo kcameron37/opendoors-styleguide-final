@@ -4,8 +4,10 @@
 *{
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
+    
   }
-  
+
+   
   h1{
     font-family: 'Calistoga', cursive;
     color: #33718A;
@@ -46,16 +48,36 @@ h6 {
     color: #33718A;
     font-size: 20px;
     font-weight: lighter;
+    margin-top: 20px;
 }
 
 
-  p1, p{
+  p{
     font-family: 'Roboto', sans-serif;
     color: #33718A;
     font-size: 16px;
+    margin-top: 10px;
     
   }
 
+  p1{
+    font-family: 'Roboto', sans-serif;
+    color: #33718A;
+    font-size: 16px;
+      
+  }
+
+  a{
+    color: white;
+  }
+
+  a{
+    color: #33718A;
+  }
+
+  a:hover{
+    color:white;
+  }
 
 
   /**-----End of Global-------**/
@@ -84,7 +106,7 @@ h6 {
     padding: 0;
     font-size: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    font-size: 70px;
+    font-size: 80px;
       }
   
   .nav ul {
@@ -112,16 +134,20 @@ h6 {
   
   a {
     display: block;
+    text-align: center;
+    padding: 14px 16px;
+    
+  }
+
+  a:hover {
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    
   }
   
-  a:hover {
-    background-color: #33718A;
-    border-radius: 10px;
-    }
+  
   
     /**-----End of Global-------**/
   
@@ -148,6 +174,7 @@ h6 {
 
     .text__header{
                 margin-bottom: 10px;
+                margin-bottom: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -203,6 +230,7 @@ h6 {
       padding: 1%;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      
     }
   
     /**-----End of Body-------**/
@@ -240,6 +268,7 @@ h6 {
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
   }
   
   /**-----End of Footer-------**/
